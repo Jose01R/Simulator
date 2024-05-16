@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <!--NAVBAR-->
+    <nav>
+        <b>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Calendar/calendar.html">CALENDAR</a></li>
+                <li><a href="CS/cs.html">CUSTOMER SERVICE</a></li>
+                <li><a href="NOTES/notes.html">NOTES</a></li>
+                <li><a href="">EMAIL</a></li>
+                <li><a href="#About">ABOUT</a></li>
+            </ul>
+    </b>
+      </nav>
+    </header>
+      <!--CARRUSEL DE IMG-->
+
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+</head>
+<div class="box-area">
+        <div class="box active">
+            <img src="IMG/calendar_.jpg" alt="img">
+            <i class="fa fa-calendar"></i>
+            <h2>Calendar</h2>
+            <a href="#calendar"><p>MORE INFO</p></a>
+
+        </div>
+        <div class="box">
+            <img src="IMG/cs.jpg" alt="img">
+            <i class="fa fa-headphones"></i>
+            <h2>Customer Service</h2>
+            <a href="#cs"><p>MORE INFO</p></a>
+            
+        </div>
+        <div class="box">
+            <img src="IMG/notes.jpg" alt="img">
+            <i class="fa fa-sticky-note"></i>
+            <h2>Notes</h2>
+           <a href="#notes"><p>MORE INFO</p></a>
+
+        </div>
+        <div class="box">
+            <img src="IMG/email.jpg" alt="img">
+            <i class="fa fa-envelope"></i>
+            <h2>EMAIL</h2>
+            <a href="#email"><p>MORE INFO</p></a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="index.js"></script>
+
+    <br><br><br><br><br><br><br><br>
+    <!--EXPLICACIÓN SECCIONES-->
+    <div class="About" id="About" style="
+        text-align: center; 
+        color: #e0dfdc;
+        background-color: #333;
+        letter-spacing: .1em;
+        text-shadow: 
+        0 -1px 0 #fff, 
+        0 1px 0 #2e2e2e, 
+        0 2px 0 #2c2c2c, 
+        0 3px 0 #2a2a2a, 
+        0 4px 0 #282828, 
+        0 5px 0 #262626, 
+        0 6px 0 #242424, 
+        0 7px 0 #222,           
+        0 8px 0 #202020, 
+        0 9px 0 #1e1e1e, 
+        0 10px 0 #1c1c1c, 
+        0 11px 0 #1a1a1a, 
+        0 12px 0 #181818, 
+        0 13px 0 #161616, 
+        0 14px 0 #141414, 
+        0 15px 0 #121212, 
+        0 22px 30px rgba(0, 0, 0, 0.9);"><!--STYLE ABOUT TITLE-->
+        <b><h1>ABOUT</h1></b>
+    </div>
+    <br><br>
+    
+    <!--CALENDAR-->
+<br>
+    <div class="calendar" id="calendar">
+        <div class="holder">
+            <div class="item place">
+              <div class="imageHolder"></div>
+              <div class="details">
+                <div class="type"></div>
+                <div class="meta">
+                  <p class="title">
+                    CALENDAR
+                  </p>
+                  <p class="info">
+                  Este calendario será tú agenda virtual, bueno, la agenda de la empresa. Acá podrás planificar el día a día, ademá de observar lo que has hecho hasta ese momento<br/><br/>
+          
+          Te facilitará el trabajo ya que, podrás llevar un mayor orden para planificar citas, reuniones y otros eventos.<br/><br/>
+          
+          El calendario tendrá un botón al lado (+) donde al dar click te despliega un recuadro para ingresar el evento. Antes, deberás seleccionar la fecha del evento.<br/><br/>
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <!--CS-->
+<br>
+    <div class="cs" id="cs">
+        <div class="holder">
+            <div class="item place">
+              <div class="imageHolder"></div>
+              <div class="details">
+                <div class="type"></div>
+                <div class="meta">
+                  <p class="title">
+                    CUSTOMER SERVICE
+                  </p>
+                  <p class="info">
+                  En la sección customer service (CS), tendrás un audio donde escucharás una conversación telefónica de un cliente con un problema que deberás solucionar.<br/><br/>
+          
+          Además tendrás la transcripción del mismo donde podrás leer la conversación. La conversación tendrá momentos vacíos (death air), donde te tocará a ti responderle al cliente .<br/><br/>
+          
+          Las personas encargadas te darán una hoja con las posibles respuestas, preguntas que puedes usar para resolver el problema. <br/><br/>
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!--NOTES-->
+<br>
+    <div class="notes" id="notes">
+        <div class="holder">
+            <div class="item place">
+              <div class="imageHolder"></div>
+              <div class="details">
+                <div class="type"></div>
+                <div class="meta">
+                  <p class="title">
+                    NOTES
+                  </p>
+                  <p class="info">
+                  Aquí tendrás la posibilidad de redactar una carta, escribir información importante. Se te mostrará un editor de texto similar a Microsoft Word.<br/><br/>
+          
+          Podrás escribir dentro de la hoja la información que los encargados te soliciten en el formato requerido. Sin embargo solo tendrás la posibilidad de guardar el documento en txt.<br/><br/>
+          
+          La idea general es simular una hoja en blanco donde puedas practicar tus habilidades de redacción.<br/><br/>
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!--EMAIL-->
+
+    <div class="email" id="email">
+        <div class="holder">
+            <div class="item place">
+              <div class="imageHolder"></div>
+              <div class="details">
+                <div class="type"></div>
+                <div class="meta">
+                  <p class="title">
+                    EMAIL
+                  </p>
+                  <p class="info">
+                  Esta sección llamada "EMAIL" está hecha con la función de brindar un acceso rápido hacia una aplicación de correo prederminada como lo es Gmail, Outlook, entre otras.<br/><br/>
+          
+          Una vez des click al botón este te llevará inmediatamente a la página (aplicación) para que redactes tú correo.<br/><br/>
+          
+          Si deseas volver al sitema de simulación solo debes dar click en la pestaña previa del sistema y volverás al sitio de "Inicio" o dar click a la flecha para volver en tú navegador.<br/><br/>
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+    </div>
+
+<!--FOOTER-->
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="https://www.linkedin.com/in/jose-andres-ram%C3%ADrez-j-4b4926269/"><i class="fa fa-linkedin"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="https://www.linkedin.com/in/jose-andres-ram%C3%ADrez-j-4b4926269/">Contact me</a></li>
+<li><a href="#">My Service</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+</ul>
+</div>
+
+<div class="row">
+SIMULATOR Copyright © 2024 Simulador - All rights reserved || Designed By: <a href="https://www.linkedin.com/in/jose-andres-ram%C3%ADrez-j-4b4926269/">J.</a> 
+</div>
+</div>
+</footer>
+<!-- FOOTER END-->
+
+
+</body>
+</html>
