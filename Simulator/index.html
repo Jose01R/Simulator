@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <!------------------------ICONO EN PESTAÑA------------------------>
+    <link rel="icon" href="IMG/logo2.ico" type="image/x-icon">
+    <link rel="icon" href="IMG/logo2.png" type="type=image/png">
+    
+    <script src="index.js"></script>
+    <title>Online Secretarial: Professional Experience</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<body>
+    <!------------------------SIDEBAR------------------------>
+    <div class="sidebar">
+        <a href="index.html"><i class="fas fa-home"></i> HOME</a>
+        <a href="Calendar/calendar.html"><i class="fa fa-calendar"></i> CALENDAR</a>
+        <a href="CS/css.html"><i class="fas fa-headphones"></i> CUSTOMER SERVICE</a>
+        <a href="NOTES/notes.html"><i class="far fa-sticky-note"></i> NOTES</a>
+        <a href="https://www.google.com/intl/es/gmail/about/"><i class="far fa-envelope"></i> EMAIL</a>
+        <a href="#About"><i class="far fa-address-card"></i> ABOUT</a>
+    </div>
+
+    <!------------------------CARRUSEL DE IMG------------------------>
+    <div class="box-area">
+        <div class="box active">
+          <a href="#calendar">  
+            <img src="IMG/calendar_.jpg" alt="img">
+            <i class="fa fa-calendar"></i>
+            <h2>Calendar</h2>
+            <p>MORE INFO</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="#cs">  
+            <img src="IMG/cs.jpg" alt="img">
+            <i class="fa fa-headphones"></i>
+            <h2>Customer Service</h2>
+            <p>MORE INFO</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="#notes">
+            <img src="IMG/notes.jpg" alt="img">
+            <i class="fa fa-sticky-note"></i>
+            <h2>Notes</h2>
+            <p>MORE INFO</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="#email">
+            <img src="IMG/email.jpg" alt="img">
+            <i class="fa fa-envelope"></i>
+            <h2>EMAIL</h2>
+            <p>MORE INFO</p>
+          </a>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="index.js"></script>
+
+    
+    <!------------------------WELCOME------------------------>
+    <div class="welcome-section">
+        <h2>Bienvenid@ al Simulador</h2>
+        <div class="video-container">
+            <h3>Video explicativo</h3>
+            <div class="video-item">
+                
+                <video width="640" height="360" controls autoplay muted loop>
+                    <source src="IMG/video/Online Secretarial_video.mp4" type="video/mp4">
+                </video>
+                
+                <p>“Transforma tu aprendizaje con pasantías digitales que simulan 
+                    el entorno laboral real, brindándote las habilidades prácticas 
+                    necesarias sin importar en dónde te encuentres.”
+                </p>
+
+            </div><!--END video-item-->
+        </div>  <!--END video-container-->
+    </div> <!--END welcome-section-->
+
+
+    <!------------------------EXPLICACIÓN SECCIONES------------------------>
+<div class="About" id="About">
+  <b><h1>ABOUT</h1></b>
+</div>
+<div class="calendar place" id="calendar">
+  <div class="holder">
+      <div class="item">
+          <div class="imageHolder">
+              <!-- La imagen de fondo se aplicará desde el CSS -->
+          </div>
+          <div class="details">
+              <div class="type"></div>
+              <div class="meta">
+                  <p class="title">CALENDAR</p>
+                  <p class="info">
+                      Este calendario será tú agenda virtual, bueno, la agenda de la empresa. Acá podrás planificar el día a día, ademá de observar lo que has hecho hasta ese momento.<br/><br/>
+                      Te facilitará el trabajo ya que, podrás llevar un mayor orden para planificar citas, reuniones y otros eventos.<br/><br/>
+                      El calendario tendrá un botón al lado (+) donde al dar click te despliega un recuadro para ingresar el evento. Antes, deberás seleccionar la fecha del evento.<br/><br/>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="cs place" id="cs">
+  <div class="holder">
+      <div class="item">
+          <div class="imageHolder">
+              <!-- La imagen de fondo se aplica desde el CSS -->
+          </div>
+          <div class="details">
+              <div class="type"></div>
+              <div class="meta">
+                  <p class="title">CUSTOMER SERVICE</p>
+                  <p class="info">
+                      En la sección customer service (CS), tendrás preguntas aleatorias las cuales simulan una conversación digital por chat de un cliente con un problema o duda que deberás solucionar.<br/><br/>
+                      Además tendrás las posibles respuestas a cada pregunta. Tendrás diversas preguntas, donde te tocará a ti responderle al cliente de la manera más adecuada.<br/><br/>
+                      Solo tendrás que dar click en "Inicio" para comenzar con la primer pregunta, y después solo tendrás que arrastrar la respuesta al cuadro y dar click en "Enviar".<br/><br/>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="notes place" id="notes">
+  <div class="holder">
+      <div class="item">
+          <div class="imageHolder">
+              <!-- La imagen de fondo se aplica desde el CSS -->
+          </div>
+          <div class="details">
+              <div class="type"></div>
+              <div class="meta">
+                  <p class="title">NOTES</p>
+                  <p class="info">
+                      Aquí tendrás la posibilidad de redactar una carta, escribir información importante. Se te mostrará un editor de texto similar a Microsoft Word.<br/><br/>
+                      Podrás escribir dentro de la hoja la información que los encargados te soliciten en el formato requerido. Sin embargo solo tendrás la posibilidad de guardar el documento en txt.<br/><br/>
+                      La idea general es simular una hoja en blanco donde puedas practicar tus habilidades de redacción.<br/><br/>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="email place" id="email">
+  <div class="holder">
+      <div class="item">
+          <div class="imageHolder">
+              <!-- La imagen de fondo se aplica desde el CSS -->
+          </div>
+          <div class="details">
+              <div class="type"></div>
+              <div class="meta">
+                  <p class="title">EMAIL</p>
+                  <p class="info">
+                      Esta sección llamada "EMAIL" está hecha con la función de brindar un acceso rápido hacia una aplicación de correo prederminada como lo es Gmail, Outlook, entre otras.<br/><br/>
+                      Una vez des click al botón este te llevará inmediatamente a la página (aplicación) para que redactes tú correo.<br/><br/>
+                      Si deseas volver al sistema de simulación solo debes dar click en la pestaña previa del sistema y volverás al sitio de "Inicio" o dar click a la flecha para volver en tú navegador.<br/><br/>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+    <!------------------------FOOTER------------------------>
+    <footer>
+      <div class="footer">
+          <div class="row">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/j.andresrj/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.linkedin.com/in/jose-andres-ram%C3%ADrez-j-4b4926269/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="row">
+              <ul>
+                  <li><a href="mailto:j.andresrj.01@gmail.com">Contact me</a></li>
+                  <li><a href="https://www.linkedin.com/in/jose-andres-ram%C3%ADrez-j-4b4926269/">My Service</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+          </div>
+          <div class="row">
+              SIMULATOR Copyright © 2024 Simulador - All rights reserved || Designed By: <a href="https://www.linkedin.com/in/jose-andres-ram%C3%ADrez-j-4b4926269/">J.</a>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
